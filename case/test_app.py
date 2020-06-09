@@ -20,5 +20,8 @@ class TestWeb(unittest.TestCase):
         print("购买商品:\n输入数量\n输入金额")
         self.assertEqual(2, 2)
 
+    def test_wahaha(self):
+        pass
+
     def tearDown(self):
         print("关闭浏览器")
